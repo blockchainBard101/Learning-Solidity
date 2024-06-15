@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "wallet_address",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isEther_wallet",
+						"type": "bool"
+					}
+				],
+				"name": "add_val",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					}
+				],
+				"name": "retrieve_val",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"arraysAndStructs/Arrays.sol": "Array"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"arraysAndStructs/Arrays.sol": {
+			"keccak256": "0xcfbb9f83bd095a400e1a0e826a62bb868f605cf42af743e620807d1874c1ec26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://144e01f7726e9aefbcf562e71e5bdf8dea3cf1eb7585bd1676dc842fc8198c51",
+				"dweb:/ipfs/QmfG5X9XBEuhCq9BJ4CjSEEza1wFt2ku2Bo5xNfiL8miH4"
+			]
+		}
+	},
+	"version": 1
+}
